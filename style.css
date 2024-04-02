@@ -92,11 +92,8 @@ nav {
 }
 
 #slideshow {
-    display: flex;
-    justify-content: center;
     position: relative;
     z-index: 0;
-    width: 100%;
 }
 
 #slideshow img{
@@ -115,8 +112,8 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    width: 80%;
-    height: 70%;
+    width: 70vh;
+    height: 70vh;
 }
 
 .parrafoPrincipal {
@@ -126,12 +123,11 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 30px;
-    padding: 40px;
+    padding: 60px;
 }
 
 .parrafoPrincipal h1 {
-    width: 50vh;
+    width: 70vh;
     font-size: 35px;
     letter-spacing: 0;
     font-weight: bold;
@@ -147,8 +143,8 @@ nav {
     font-size: 20px;
     color: #FFFFFF;
     opacity: 1;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .parrafoPrincipal button {
