@@ -498,10 +498,33 @@ nav {
     margin-bottom: 0;
 }
 
+.contenedorNew span{
+    color: rgba(119, 114, 246, 1);
+}
+
 @media screen and (max-width: 768px){
-    .contenedorNew h4 {
-    font-size: 15px;
+
+    .contenedorNew{
+        padding: 40px;
     }
+
+    .contenedorNew span{
+        font-size: 13px;
+    }
+    .contenedorNew h4 {
+    font-size: 17px;
+    }
+
+    .inputMail{
+        width: 250px;
+    }
+.inputLegal p{
+    font-size: 14px;
+}
+
+.inputLegal{
+    margin-left: 20px;
+}
     }
 
 #miEmail {
