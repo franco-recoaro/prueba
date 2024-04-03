@@ -116,6 +116,7 @@ nav {
     transform: translate(-50%, -50%);
     z-index: 1;
     width: 100%;
+    margin-top: 30px;
 }
 
 .parrafoPrincipal {
@@ -129,8 +130,8 @@ nav {
 }
 
 .parrafoPrincipal h1 {
-    width: 50vh;
-    font-size: 35px;
+    width: 60vh;
+    font-size: 30px;
     letter-spacing: 0;
     font-weight: bold;
     color: white;
@@ -140,12 +141,12 @@ nav {
 }
 
 .parrafoPrincipal p {
-    width: 70vh;
+    width: 80vh;
     letter-spacing: 0px;
-    font-size: 20px;
+    font-size: 17px;
     color: #FFFFFF;
     opacity: 1;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
@@ -154,9 +155,9 @@ nav {
     border-radius: 21px;
     opacity: 1;
     background-color: transparent;
-    height: 40px;
-    width: 150px;
-    font-size: 17px;
+    height: 35px;
+    width: 120px;
+    font-size: 13px;
     letter-spacing: 0px;
     font-weight: bold;
     color: white;
@@ -164,6 +165,13 @@ nav {
     cursor: pointer;
 }
 
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    gap: 3px;
+}
 
 .botones button {
     background-color: transparent;
@@ -174,7 +182,9 @@ nav {
 }
 
 .botones button img {
-    height: 25px;
+    height: 15px;
+    width: 20px;
+    
 }
 
 .botones button:hover {
