@@ -75,7 +75,7 @@ nav {
 }
 
 .contenedor {
-    height: 70vh;
+    height: 80vh;
     margin: 0;
     width: 100%;
     overflow: hidden;
@@ -497,6 +497,12 @@ nav {
     margin-top: 5px;
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px){
+    .contenedorNew h4 {
+    font-size: 15px;
+    }
+    }
 
 #miEmail {
     width: 280px;
