@@ -518,6 +518,8 @@ nav {
     .inputMail{
         width: 250px;
     }
+
+
 .inputLegal p{
     font-size: 14px;
 }
@@ -535,6 +537,8 @@ nav {
     opacity: 1;
     margin-top: 25px;
     margin-bottom: 25px;
+    padding-left: 15px;
+    font-size: 15px;
 }
 
 #miEmail::placeholder {
