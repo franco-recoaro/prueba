@@ -24,7 +24,7 @@ header {
 /*NAV*/
 
 nav {
-    height: 90px;
+    height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -192,7 +192,7 @@ nav {
         width: auto;
         height: auto;
     }
-
+    
     .parrafoPrincipal{
         width: 100%;
         padding: 40px;
@@ -245,11 +245,6 @@ nav {
 
 }
 
-@media (max-width: 400px) {
-    .parrafoPrincipal{
-        margin-top: 100px;
-    }
-}
 
 
 /*Texto titular*/
