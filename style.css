@@ -190,40 +190,64 @@ nav {
     #slideshow img{
         background: rgba(0, 0, 0, 1) 0% 0% no-repeat padding-box;
         width: auto;
-        height: auto;
+        height: 90vh;
     }
     
     .parrafoPrincipal{
         width: 100%;
-        padding: 40px;
-        margin-top: 30px;
         margin: 0;
+
     }
 
     .parrafoPrincipal h1{
-        width: 100%;
+        width: 80%;
         margin: 0;
-        font-size: 35px;
+        font-size: 22px;
         opacity: 1;
+        text-align: center;
     }
 
 
     .parrafoPrincipal p {
+        padding: 30px 30px 0 30px;
         width: 100%;
         text-align: center;
-        font: 22px;
-        font-size: 18px;
+        font-size: 15px;
+        margin: 0;
     }
 
     .parrafoPrincipal button {
-    margin-bottom: 40px;    
-    font-weight:bold;
+        border: 2px solid rgba(255, 255, 255, 1);
+        border-radius: 21px;
+        opacity: 1;
+        background-color: transparent;
+        height: 30px;
+        width: 100px;
+        font-size: 13px;
+        letter-spacing: 0px;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        font-weight: lighter;
+        margin-top: 20px;
+    }
+    
+    .botones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    .botones button{
+        margin-left: 5px;
     }
 
     .botones button img {
         height: 20px;
-        width: 25px;
+        width: 20px;
         cursor: pointer;
+        
     }
 
 }
@@ -244,8 +268,6 @@ nav {
     }
 
 }
-
-
 
 /*Texto titular*/
 
@@ -310,7 +332,7 @@ nav {
 }
 
 
-@media (min-width: 400px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .textoTitular{
         padding: 60px 35px 60px 35px;
     }
@@ -464,13 +486,6 @@ nav {
     height: 300px;
 }
 
-.contenedorNew span {
-    color: rgba(119, 114, 246, 1);
-    text-align: center;
-    font-size: 15px;
-    letter-spacing: 0px;
-    opacity: 1;
-}
 
 .contenedorNew h4 {
     color: rgba(36, 36, 36, 1);
