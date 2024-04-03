@@ -245,6 +245,12 @@ nav {
 
 }
 
+@media (max-width: 400px) {
+    .parrafoPrincipal{
+        margin-top: 100px;
+    }
+}
+
 
 /*Texto titular*/
 
@@ -309,7 +315,7 @@ nav {
 }
 
 
-@media screen and (max-width: 768px) {
+@media (min-width: 400px) and (max-width: 768px) {
     .textoTitular{
         padding: 60px 35px 60px 35px;
     }
