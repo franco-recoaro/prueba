@@ -21,3 +21,7 @@ botones.forEach((boton, i) => {
     mostrarImagen(indiceActual);
   });
 });
+
+const enviar = document.querySelector('checkboxLegal');
+
+enviar.addEventListener("click", alert);
