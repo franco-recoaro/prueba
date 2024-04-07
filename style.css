@@ -130,7 +130,7 @@ nav {
 }
 
 .parrafoPrincipal h1 {
-    width: 60vh;
+    width: 50vh;
     font-size: 30px;
     letter-spacing: 0;
     font-weight: bold;
@@ -144,7 +144,7 @@ nav {
 .parrafoPrincipal p {
     width: 70vh;
     letter-spacing: 0px;
-    font-size: 15px;
+    font-size: 17px;
     color: #FFFFFF;
     opacity: 1;
     margin-top: 10px;

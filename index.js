@@ -24,8 +24,6 @@ botones.forEach((boton, i) => {
 
 const enviar = document.querySelector('checkboxLegal');
 
-enviar.addEventListener("click", alert);
-
 function alert() {
   if (enviar.checked) {
     console.log("Checked");
